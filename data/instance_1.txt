@@ -1,4 +1,0 @@
-days=5
-slots_per_day=4
-
-Hello, this is a sample text written to the file.

@@ -70,6 +70,6 @@ def extract_problem_data(filename: str):
         return days, slots_per_day, nb_resources, nb_projects, resources, projects
 
 
-#extract_problem_data(filename="data/instance_2.txt")
+#extract_problem_data(filename="problems/instance_2.txt")
 
 
