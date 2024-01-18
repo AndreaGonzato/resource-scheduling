@@ -1,11 +1,9 @@
-# This script write and generate instance of the optimization problem
+# This script write and generate an instance of the optimization problem
 import math
 import random
+import numpy as np
 from typing import List
 
-import numpy as np
-
-from Resource import Resource
 
 filename = "problems/instance_1.txt"  # Define the filename
 
