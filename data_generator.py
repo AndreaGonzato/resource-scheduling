@@ -3,7 +3,7 @@ import numpy as np
 from typing import List
 
 random_seed = 10
-assignation_probability = 0.5 # probability to assign resource r to project p
+assignation_probability = 0.5  # probability to assign resource r to project p
 
 
 # create assignation matrix resources x projects
@@ -28,3 +28,6 @@ def generate_random_requested_slots_per_project(nb_projects: int, max_total_allo
             max(0, int(np.random.normal((max_total_allocation*0.6)/nb_projects, 2)))
             )
     return requested_slots_per_project
+
+
+
