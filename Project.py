@@ -25,15 +25,14 @@ class Project:
             return
         self.allocations[resource].append(time)
 
+    def calculate_real_
+
     def is_resource_assigned(self, resource: 'Resource') -> bool:
         if resource in self.assigned_resources:
             return True
         else:
             return False
 
-    def get_allocations(self) -> List['Resource']:
-        for el in self.allocations:
-            print(el)
 
     def __repr__(self) -> str:
         return (f"Project{{id : {self.id}, requested_slot : {self.requested_slots}, "
