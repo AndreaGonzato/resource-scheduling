@@ -9,6 +9,6 @@ class Allocation:
         self.time = time
 
         self.resource.assign_to_work(time, project)
-        self.project.schedule_work(resource, time)
+        self.project.add_schedule_work(resource, time)
 
 

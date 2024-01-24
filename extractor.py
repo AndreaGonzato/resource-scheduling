@@ -22,7 +22,7 @@ def parse_resource(line) -> Resource:
 
 
 def parse_project(line, resources: List[Resource]) -> Project:
-    pattern = r'id=(\d+), requested_slots=(\d+), start_time=(\d+), end_time=(\d+), assigned_resources=\[([0-9, ]+)\]'
+    pattern = r'id=(\d+), requested_slots=(\d+), non_start_before=(\d+), non_end_after=(\d+), assigned_resources=\[([0-9, ]+)\]'
     match = re.match(pattern, line)
     if match:
         id = int(match.group(1))
@@ -36,8 +36,8 @@ def parse_project(line, resources: List[Resource]) -> Project:
                 raise ValueError(f'incorrect assignation of resource {_id} to project {id}')
             assigned_resources.append(resources[_id])
 
-        return Project(id=id, requested_slots=requested_slots, start_time=start_time,
-                       end_time=end_time, assigned_resources=assigned_resources)
+        return Project(id=id, requested_slots=requested_slots, non_start_before=start_time,
+                       not_end_after=end_time, assigned_resources=assigned_resources)
     else:
         raise ValueError('incorrect pattern matching for project line')
 
@@ -70,6 +70,5 @@ def extract_problem_data(filename: str):
         return days, slots_per_day, nb_resources, nb_projects, resources, projects
 
 
-#extract_problem_data(filename="problems/instance_2.txt")
-
+#days, slots_per_day, nb_resources, nb_projects, resources, projects = extract_problem_data(filename="problems/instance_1.txt")
 

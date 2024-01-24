@@ -1,0 +1,41 @@
+Optimal solution found
+Number of solutions found: 5
+Objective value: 9.0
+Solver runtime: 0.010771989822387695 seconds
+
+PROJECT SCHEDULE, nb_projects: 5
+Project_ID: 0, resources_used: 1, requested_slots: 7
+Resource: 1, working: [0, 1, 2, 3, 4, 5, 6]
+
+Project_ID: 1, resources_used: 1, requested_slots: 3
+Resource: 1, working: [7, 8]
+
+Project_ID: 2, resources_used: 1, requested_slots: 2
+Resource: 0, working: [1, 2]
+
+Project_ID: 3, resources_used: 1, requested_slots: 1
+Resource: 0, working: [0]
+
+Project_ID: 4, resources_used: 1, requested_slots: 3
+Resource: 0, working: [4, 5, 6]
+
+RESOURCE ALLOCATION, nb_resources: 2
+Resource_ID: 0, allocations: 6
+t: 0, project: 3
+t: 1, project: 2
+t: 2, project: 2
+t: 4, project: 4
+t: 5, project: 4
+t: 6, project: 4
+
+Resource_ID: 1, allocations: 9
+t: 0, project: 0
+t: 1, project: 0
+t: 2, project: 0
+t: 3, project: 0
+t: 4, project: 0
+t: 5, project: 0
+t: 6, project: 0
+t: 7, project: 1
+t: 8, project: 1
+
