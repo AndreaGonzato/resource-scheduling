@@ -1,6 +1,11 @@
 import os
 from solver import solve_problem
 
+"""
+this file solve all the problem instance in the problems directory that are not already solved.
+It put the solution file in the solutions directory
+"""
+
 # Specify the directory you want to list files from
 directory = 'problems/'
 

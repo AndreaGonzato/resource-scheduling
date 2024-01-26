@@ -4,7 +4,12 @@ import numpy as np
 
 from extractor import extract_problem_data
 
+"""
+This file is used to solve a single problem
 
+@filename: is the path to the problem file to be solved
+
+"""
 def solve_problem(filename):
 
     days, slots_per_day, nb_resources, nb_projects, resources, projects = extract_problem_data(filename=f"problems/{filename}")

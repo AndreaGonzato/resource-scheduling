@@ -1,6 +1,9 @@
 import os
 import re
 
+"""
+This script analise all the solution and create a plot to know how the resolution time grow with the complexity of the problem
+"""
 # Specify the directory you want to list files from
 directory = 'solutions/'
 
