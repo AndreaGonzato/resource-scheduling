@@ -1,0 +1,77 @@
+Optimal solution found
+Number of solutions found: 10
+Objective value: 25.0
+Solver runtime: 0.315313 seconds
+
+PROJECT SCHEDULE, nb_projects: 5
+Project_ID: 0, resources_used: 1, requested_slots: 15
+Resource: 1, working: [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+
+Project_ID: 1, resources_used: 1, requested_slots: 10
+Resource: 1, working: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Project_ID: 2, resources_used: 1, requested_slots: 10
+Resource: 0, working: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Project_ID: 3, resources_used: 2, requested_slots: 6
+Resource: 0, working: [10, 11, 12, 13, 14]
+Resource: 1, working: [10]
+
+Project_ID: 4, resources_used: 1, requested_slots: 11
+Resource: 0, working: [15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+
+RESOURCE ALLOCATION, nb_resources: 2
+Resource_ID: 0, allocations: 25
+t: 0, project: 2
+t: 1, project: 2
+t: 2, project: 2
+t: 3, project: 2
+t: 4, project: 2
+t: 5, project: 2
+t: 6, project: 2
+t: 7, project: 2
+t: 8, project: 2
+t: 9, project: 2
+t: 10, project: 3
+t: 11, project: 3
+t: 12, project: 3
+t: 13, project: 3
+t: 14, project: 3
+t: 15, project: 4
+t: 16, project: 4
+t: 17, project: 4
+t: 18, project: 4
+t: 19, project: 4
+t: 20, project: 4
+t: 21, project: 4
+t: 22, project: 4
+t: 23, project: 4
+t: 24, project: 4
+
+Resource_ID: 1, allocations: 25
+t: 0, project: 1
+t: 1, project: 1
+t: 2, project: 1
+t: 3, project: 1
+t: 4, project: 1
+t: 5, project: 1
+t: 6, project: 1
+t: 7, project: 1
+t: 8, project: 1
+t: 9, project: 1
+t: 10, project: 3
+t: 11, project: 0
+t: 12, project: 0
+t: 13, project: 0
+t: 14, project: 0
+t: 15, project: 0
+t: 16, project: 0
+t: 17, project: 0
+t: 18, project: 0
+t: 19, project: 0
+t: 20, project: 0
+t: 21, project: 0
+t: 22, project: 0
+t: 23, project: 0
+t: 24, project: 0
+

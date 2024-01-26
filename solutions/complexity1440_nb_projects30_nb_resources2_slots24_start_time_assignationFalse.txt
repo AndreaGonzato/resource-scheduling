@@ -1,0 +1,147 @@
+Optimal solution found
+Number of solutions found: 1
+Objective value: 23.0
+Solver runtime: 0.511012 seconds
+
+PROJECT SCHEDULE, nb_projects: 30
+Project_ID: 0, resources_used: 1, requested_slots: 4
+Resource: 1, working: [20, 21, 22]
+
+Project_ID: 1, resources_used: 1, requested_slots: 1
+Resource: 1, working: [0]
+
+Project_ID: 2, resources_used: 1, requested_slots: 1
+Resource: 0, working: [16]
+
+Project_ID: 3, resources_used: 1, requested_slots: 1
+Resource: 1, working: [7]
+
+Project_ID: 4, resources_used: 1, requested_slots: 1
+Resource: 0, working: [20]
+
+Project_ID: 5, resources_used: 1, requested_slots: 1
+Resource: 1, working: [6]
+
+Project_ID: 6, resources_used: 1, requested_slots: 1
+Resource: 0, working: [3]
+
+Project_ID: 7, resources_used: 1, requested_slots: 1
+Resource: 0, working: [19]
+
+Project_ID: 8, resources_used: 1, requested_slots: 1
+Resource: 1, working: [8]
+
+Project_ID: 9, resources_used: 1, requested_slots: 1
+Resource: 1, working: [5]
+
+Project_ID: 10, resources_used: 1, requested_slots: 1
+Resource: 0, working: [9]
+
+Project_ID: 11, resources_used: 1, requested_slots: 1
+Resource: 1, working: [4]
+
+Project_ID: 12, resources_used: 1, requested_slots: 2
+Resource: 1, working: [18, 19]
+
+Project_ID: 13, resources_used: 1, requested_slots: 2
+Resource: 1, working: [16, 17]
+
+Project_ID: 14, resources_used: 1, requested_slots: 1
+Resource: 0, working: [21]
+
+Project_ID: 15, resources_used: 1, requested_slots: 1
+Resource: 0, working: [6]
+
+Project_ID: 16, resources_used: 1, requested_slots: 2
+Resource: 0, working: [7, 8]
+
+Project_ID: 17, resources_used: 2, requested_slots: 4
+Resource: 0, working: [15, 17]
+Resource: 1, working: [14, 15]
+
+Project_ID: 18, resources_used: 1, requested_slots: 1
+Resource: 0, working: [0]
+
+Project_ID: 19, resources_used: 1, requested_slots: 1
+Resource: 0, working: [2]
+
+Project_ID: 20, resources_used: 1, requested_slots: 3
+Resource: 1, working: [11, 12, 13]
+
+Project_ID: 21, resources_used: 1, requested_slots: 1
+Resource: 0, working: [1]
+
+Project_ID: 22, resources_used: 1, requested_slots: 2
+Resource: 0, working: [4, 5]
+
+Project_ID: 23, resources_used: 1, requested_slots: 4
+Resource: 0, working: [11, 12, 13, 14]
+
+Project_ID: 24, resources_used: 1, requested_slots: 2
+Resource: 0, working: [22]
+
+Project_ID: 25, resources_used: 1, requested_slots: 1
+Resource: 0, working: [18]
+
+Project_ID: 26, resources_used: 1, requested_slots: 2
+Resource: 1, working: [9, 10]
+
+Project_ID: 27, resources_used: 1, requested_slots: 1
+Resource: 1, working: [2]
+
+Project_ID: 28, resources_used: 1, requested_slots: 1
+Resource: 1, working: [1]
+
+Project_ID: 29, resources_used: 1, requested_slots: 1
+Resource: 1, working: [3]
+
+RESOURCE ALLOCATION, nb_resources: 2
+Resource_ID: 0, allocations: 22
+t: 0, project: 18
+t: 1, project: 21
+t: 2, project: 19
+t: 3, project: 6
+t: 4, project: 22
+t: 5, project: 22
+t: 6, project: 15
+t: 7, project: 16
+t: 8, project: 16
+t: 9, project: 10
+t: 11, project: 23
+t: 12, project: 23
+t: 13, project: 23
+t: 14, project: 23
+t: 15, project: 17
+t: 16, project: 2
+t: 17, project: 17
+t: 18, project: 25
+t: 19, project: 7
+t: 20, project: 4
+t: 21, project: 14
+t: 22, project: 24
+
+Resource_ID: 1, allocations: 23
+t: 0, project: 1
+t: 1, project: 28
+t: 2, project: 27
+t: 3, project: 29
+t: 4, project: 11
+t: 5, project: 9
+t: 6, project: 5
+t: 7, project: 3
+t: 8, project: 8
+t: 9, project: 26
+t: 10, project: 26
+t: 11, project: 20
+t: 12, project: 20
+t: 13, project: 20
+t: 14, project: 17
+t: 15, project: 17
+t: 16, project: 13
+t: 17, project: 13
+t: 18, project: 12
+t: 19, project: 12
+t: 20, project: 0
+t: 21, project: 0
+t: 22, project: 0
+

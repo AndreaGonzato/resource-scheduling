@@ -59,17 +59,13 @@ def generate_problem(nb_projects=30, nb_resources=15, days=5, slots_per_day=4, s
             file.write(f"id={p}, requested_slots={requested_slots}, non_start_before={non_start_before}, non_end_after={non_end_after}, "
                        f"assigned_resources={assigned_resources}\n")
 
-        print("max_total_allocation:", max_total_allocation)
-        print("total_requested_slots:", total_requested_slots)
 
-
-
-
-for p in [5, 10]:
-    for r in [2, 10]:
-        for d in [1, 5]:
+for p in [5, 10, 20, 30]:
+    for r in [2, 10, 15]:
+        for d in [1, 3, 5]:
             for s in [2, 8, 16]:
                 generate_problem(nb_projects=p, nb_resources=r, days=d, slots_per_day=s, start_time_assignation=False)
+
 # DATA
 '''
 nb_projects = 30

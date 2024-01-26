@@ -1,0 +1,23 @@
+days=3
+slots_per_day=2
+nb_resources=10
+nb_projects=5
+
+RESOURCES
+id=0
+id=1
+id=2
+id=3
+id=4
+id=5
+id=6
+id=7
+id=8
+id=9
+
+PROJECTS
+id=0, requested_slots=3, non_start_before=0, non_end_after=6, assigned_resources=[1, 3, 7, 9]
+id=1, requested_slots=3, non_start_before=0, non_end_after=6, assigned_resources=[0, 3, 6, 7, 9]
+id=2, requested_slots=3, non_start_before=0, non_end_after=6, assigned_resources=[2, 7, 8, 9]
+id=3, requested_slots=1, non_start_before=0, non_end_after=6, assigned_resources=[1, 2, 4, 6, 7]
+id=4, requested_slots=3, non_start_before=0, non_end_after=6, assigned_resources=[0, 1, 2, 3, 4, 9]

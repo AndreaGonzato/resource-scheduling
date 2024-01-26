@@ -1,0 +1,57 @@
+Optimal solution found
+Number of solutions found: 1
+Objective value: 0.0
+Solver runtime: 0.000126 seconds
+
+PROJECT SCHEDULE, nb_projects: 10
+Project_ID: 0, resources_used: 0, requested_slots: 1
+
+Project_ID: 1, resources_used: 0, requested_slots: 1
+
+Project_ID: 2, resources_used: 0, requested_slots: 1
+
+Project_ID: 3, resources_used: 0, requested_slots: 1
+
+Project_ID: 4, resources_used: 0, requested_slots: 1
+
+Project_ID: 5, resources_used: 0, requested_slots: 1
+
+Project_ID: 6, resources_used: 0, requested_slots: 1
+
+Project_ID: 7, resources_used: 0, requested_slots: 1
+
+Project_ID: 8, resources_used: 0, requested_slots: 1
+
+Project_ID: 9, resources_used: 0, requested_slots: 1
+
+RESOURCE ALLOCATION, nb_resources: 15
+Resource_ID: 0, allocations: 0
+
+Resource_ID: 1, allocations: 0
+
+Resource_ID: 2, allocations: 0
+
+Resource_ID: 3, allocations: 0
+
+Resource_ID: 4, allocations: 0
+
+Resource_ID: 5, allocations: 0
+
+Resource_ID: 6, allocations: 0
+
+Resource_ID: 7, allocations: 0
+
+Resource_ID: 8, allocations: 0
+
+Resource_ID: 9, allocations: 0
+
+Resource_ID: 10, allocations: 0
+
+Resource_ID: 11, allocations: 0
+
+Resource_ID: 12, allocations: 0
+
+Resource_ID: 13, allocations: 0
+
+Resource_ID: 14, allocations: 0
+

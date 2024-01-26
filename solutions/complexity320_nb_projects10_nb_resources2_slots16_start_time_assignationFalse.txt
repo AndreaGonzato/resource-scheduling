@@ -1,7 +1,7 @@
 Optimal solution found
 Number of solutions found: 5
 Objective value: 8.0
-Solver runtime: 0.020601987838745117 seconds
+Solver runtime: 0.020224 seconds
 
 PROJECT SCHEDULE, nb_projects: 10
 Project_ID: 0, resources_used: 1, requested_slots: 5

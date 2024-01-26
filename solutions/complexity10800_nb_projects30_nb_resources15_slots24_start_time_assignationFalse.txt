@@ -1,0 +1,422 @@
+Optimal solution found
+Number of solutions found: 3
+Objective value: 13.0
+Solver runtime: 9.830479 seconds
+
+PROJECT SCHEDULE, nb_projects: 30
+Project_ID: 0, resources_used: 6, requested_slots: 10
+Resource: 1, working: [6]
+Resource: 3, working: [6, 11]
+Resource: 7, working: [10, 11]
+Resource: 9, working: [10, 12]
+Resource: 10, working: [10]
+Resource: 13, working: [10, 12]
+
+Project_ID: 1, resources_used: 5, requested_slots: 6
+Resource: 1, working: [9]
+Resource: 2, working: [9]
+Resource: 12, working: [5, 9]
+Resource: 13, working: [9]
+Resource: 14, working: [6]
+
+Project_ID: 2, resources_used: 4, requested_slots: 6
+Resource: 4, working: [7]
+Resource: 11, working: [8]
+Resource: 12, working: [4, 6]
+Resource: 13, working: [5, 8]
+
+Project_ID: 3, resources_used: 1, requested_slots: 1
+Resource: 8, working: [0]
+
+Project_ID: 4, resources_used: 6, requested_slots: 7
+Resource: 0, working: [12]
+Resource: 1, working: [7]
+Resource: 4, working: [9]
+Resource: 6, working: [9]
+Resource: 7, working: [12]
+Resource: 11, working: [9]
+
+Project_ID: 5, resources_used: 5, requested_slots: 6
+Resource: 1, working: [10]
+Resource: 2, working: [12]
+Resource: 4, working: [12]
+Resource: 6, working: [12]
+Resource: 9, working: [11]
+
+Project_ID: 6, resources_used: 5, requested_slots: 6
+Resource: 0, working: [3]
+Resource: 8, working: [3, 7]
+Resource: 10, working: [8]
+Resource: 11, working: [4]
+Resource: 12, working: [7]
+
+Project_ID: 7, resources_used: 5, requested_slots: 7
+Resource: 0, working: [11]
+Resource: 4, working: [10, 11]
+Resource: 5, working: [5, 8]
+Resource: 6, working: [11]
+Resource: 8, working: [8]
+
+Project_ID: 8, resources_used: 3, requested_slots: 8
+Resource: 1, working: [12]
+Resource: 7, working: [7]
+Resource: 14, working: [8, 9, 10]
+
+Project_ID: 9, resources_used: 4, requested_slots: 5
+Resource: 4, working: [0]
+Resource: 12, working: [2]
+Resource: 13, working: [0, 3]
+Resource: 14, working: [2]
+
+Project_ID: 10, resources_used: 3, requested_slots: 5
+Resource: 9, working: [0, 2, 4]
+Resource: 10, working: [4]
+Resource: 13, working: [2]
+
+Project_ID: 11, resources_used: 4, requested_slots: 6
+Resource: 4, working: [4, 5]
+Resource: 7, working: [3, 8]
+Resource: 8, working: [6]
+Resource: 11, working: [3]
+
+Project_ID: 12, resources_used: 6, requested_slots: 8
+Resource: 0, working: [0, 7]
+Resource: 2, working: [1]
+Resource: 5, working: [2]
+Resource: 6, working: [0, 5]
+Resource: 7, working: [4]
+Resource: 11, working: [6]
+
+Project_ID: 13, resources_used: 5, requested_slots: 8
+Resource: 1, working: [0, 2]
+Resource: 5, working: [0, 7]
+Resource: 9, working: [5, 7]
+Resource: 10, working: [0]
+Resource: 11, working: [2]
+
+Project_ID: 14, resources_used: 4, requested_slots: 4
+Resource: 0, working: [4]
+Resource: 5, working: [6]
+Resource: 8, working: [5]
+Resource: 9, working: [6]
+
+Project_ID: 15, resources_used: 2, requested_slots: 4
+Resource: 2, working: [10, 11]
+Resource: 14, working: [11]
+
+Project_ID: 16, resources_used: 4, requested_slots: 8
+Resource: 3, working: [3, 8, 10]
+Resource: 5, working: [3, 10]
+Resource: 6, working: [6, 10]
+Resource: 12, working: [8]
+
+Project_ID: 17, resources_used: 6, requested_slots: 10
+Resource: 3, working: [0]
+Resource: 5, working: [1, 4]
+Resource: 7, working: [0]
+Resource: 12, working: [0, 1]
+Resource: 13, working: [1, 6]
+Resource: 14, working: [0, 7]
+
+Project_ID: 18, resources_used: 5, requested_slots: 7
+Resource: 0, working: [6]
+Resource: 3, working: [4]
+Resource: 6, working: [2, 3, 8]
+Resource: 7, working: [2]
+Resource: 13, working: [4]
+
+Project_ID: 19, resources_used: 4, requested_slots: 5
+Resource: 5, working: [9]
+Resource: 8, working: [11]
+Resource: 11, working: [12]
+Resource: 12, working: [11]
+
+Project_ID: 20, resources_used: 6, requested_slots: 9
+Resource: 0, working: [9, 10]
+Resource: 2, working: [3, 4]
+Resource: 3, working: [2, 7]
+Resource: 6, working: [4]
+Resource: 11, working: [10]
+Resource: 12, working: [3]
+
+Project_ID: 21, resources_used: 5, requested_slots: 6
+Resource: 0, working: [2]
+Resource: 2, working: [2]
+Resource: 4, working: [2, 3]
+Resource: 6, working: [7]
+Resource: 11, working: [7]
+
+Project_ID: 22, resources_used: 6, requested_slots: 8
+Resource: 0, working: [5]
+Resource: 3, working: [1]
+Resource: 6, working: [1]
+Resource: 10, working: [2, 3, 7]
+Resource: 11, working: [0]
+Resource: 14, working: [3]
+
+Project_ID: 23, resources_used: 6, requested_slots: 10
+Resource: 1, working: [3, 8]
+Resource: 2, working: [0, 7, 8]
+Resource: 4, working: [8]
+Resource: 7, working: [1]
+Resource: 8, working: [4]
+Resource: 9, working: [3, 8]
+
+Project_ID: 24, resources_used: 6, requested_slots: 8
+Resource: 0, working: [1, 8]
+Resource: 3, working: [5]
+Resource: 4, working: [6]
+Resource: 8, working: [1, 2]
+Resource: 11, working: [1]
+Resource: 14, working: [4]
+
+Project_ID: 25, resources_used: 4, requested_slots: 7
+Resource: 1, working: [5, 11]
+Resource: 2, working: [5, 6]
+Resource: 3, working: [9]
+Resource: 10, working: [5, 11]
+
+Project_ID: 26, resources_used: 3, requested_slots: 8
+Resource: 7, working: [6]
+Resource: 9, working: [9]
+Resource: 10, working: [6, 9]
+
+Project_ID: 27, resources_used: 5, requested_slots: 5
+Resource: 1, working: [4]
+Resource: 7, working: [5]
+Resource: 9, working: [1]
+Resource: 10, working: [1]
+Resource: 11, working: [5]
+
+Project_ID: 28, resources_used: 4, requested_slots: 6
+Resource: 3, working: [12]
+Resource: 5, working: [11]
+Resource: 7, working: [9]
+Resource: 8, working: [9, 12]
+
+Project_ID: 29, resources_used: 5, requested_slots: 6
+Resource: 10, working: [12]
+Resource: 11, working: [11]
+Resource: 12, working: [10, 12]
+Resource: 13, working: [7]
+Resource: 14, working: [12]
+
+RESOURCE ALLOCATION, nb_resources: 15
+Resource_ID: 0, allocations: 13
+t: 0, project: 12
+t: 1, project: 24
+t: 2, project: 21
+t: 3, project: 6
+t: 4, project: 14
+t: 5, project: 22
+t: 6, project: 18
+t: 7, project: 12
+t: 8, project: 24
+t: 9, project: 20
+t: 10, project: 20
+t: 11, project: 7
+t: 12, project: 4
+
+Resource_ID: 1, allocations: 12
+t: 0, project: 13
+t: 2, project: 13
+t: 3, project: 23
+t: 4, project: 27
+t: 5, project: 25
+t: 6, project: 0
+t: 7, project: 4
+t: 8, project: 23
+t: 9, project: 1
+t: 10, project: 5
+t: 11, project: 25
+t: 12, project: 8
+
+Resource_ID: 2, allocations: 13
+t: 0, project: 23
+t: 1, project: 12
+t: 2, project: 21
+t: 3, project: 20
+t: 4, project: 20
+t: 5, project: 25
+t: 6, project: 25
+t: 7, project: 23
+t: 8, project: 23
+t: 9, project: 1
+t: 10, project: 15
+t: 11, project: 15
+t: 12, project: 5
+
+Resource_ID: 3, allocations: 13
+t: 0, project: 17
+t: 1, project: 22
+t: 2, project: 20
+t: 3, project: 16
+t: 4, project: 18
+t: 5, project: 24
+t: 6, project: 0
+t: 7, project: 20
+t: 8, project: 16
+t: 9, project: 25
+t: 10, project: 16
+t: 11, project: 0
+t: 12, project: 28
+
+Resource_ID: 4, allocations: 12
+t: 0, project: 9
+t: 2, project: 21
+t: 3, project: 21
+t: 4, project: 11
+t: 5, project: 11
+t: 6, project: 24
+t: 7, project: 2
+t: 8, project: 23
+t: 9, project: 4
+t: 10, project: 7
+t: 11, project: 7
+t: 12, project: 5
+
+Resource_ID: 5, allocations: 12
+t: 0, project: 13
+t: 1, project: 17
+t: 2, project: 12
+t: 3, project: 16
+t: 4, project: 17
+t: 5, project: 7
+t: 6, project: 14
+t: 7, project: 13
+t: 8, project: 7
+t: 9, project: 19
+t: 10, project: 16
+t: 11, project: 28
+
+Resource_ID: 6, allocations: 13
+t: 0, project: 12
+t: 1, project: 22
+t: 2, project: 18
+t: 3, project: 18
+t: 4, project: 20
+t: 5, project: 12
+t: 6, project: 16
+t: 7, project: 21
+t: 8, project: 18
+t: 9, project: 4
+t: 10, project: 16
+t: 11, project: 7
+t: 12, project: 5
+
+Resource_ID: 7, allocations: 13
+t: 0, project: 17
+t: 1, project: 23
+t: 2, project: 18
+t: 3, project: 11
+t: 4, project: 12
+t: 5, project: 27
+t: 6, project: 26
+t: 7, project: 8
+t: 8, project: 11
+t: 9, project: 28
+t: 10, project: 0
+t: 11, project: 0
+t: 12, project: 4
+
+Resource_ID: 8, allocations: 12
+t: 0, project: 3
+t: 1, project: 24
+t: 2, project: 24
+t: 3, project: 6
+t: 4, project: 23
+t: 5, project: 14
+t: 6, project: 11
+t: 7, project: 6
+t: 8, project: 7
+t: 9, project: 28
+t: 11, project: 19
+t: 12, project: 28
+
+Resource_ID: 9, allocations: 13
+t: 0, project: 10
+t: 1, project: 27
+t: 2, project: 10
+t: 3, project: 23
+t: 4, project: 10
+t: 5, project: 13
+t: 6, project: 14
+t: 7, project: 13
+t: 8, project: 23
+t: 9, project: 26
+t: 10, project: 0
+t: 11, project: 5
+t: 12, project: 0
+
+Resource_ID: 10, allocations: 13
+t: 0, project: 13
+t: 1, project: 27
+t: 2, project: 22
+t: 3, project: 22
+t: 4, project: 10
+t: 5, project: 25
+t: 6, project: 26
+t: 7, project: 22
+t: 8, project: 6
+t: 9, project: 26
+t: 10, project: 0
+t: 11, project: 25
+t: 12, project: 29
+
+Resource_ID: 11, allocations: 13
+t: 0, project: 22
+t: 1, project: 24
+t: 2, project: 13
+t: 3, project: 11
+t: 4, project: 6
+t: 5, project: 27
+t: 6, project: 12
+t: 7, project: 21
+t: 8, project: 2
+t: 9, project: 4
+t: 10, project: 20
+t: 11, project: 29
+t: 12, project: 19
+
+Resource_ID: 12, allocations: 13
+t: 0, project: 17
+t: 1, project: 17
+t: 2, project: 9
+t: 3, project: 20
+t: 4, project: 2
+t: 5, project: 1
+t: 6, project: 2
+t: 7, project: 6
+t: 8, project: 16
+t: 9, project: 1
+t: 10, project: 29
+t: 11, project: 19
+t: 12, project: 29
+
+Resource_ID: 13, allocations: 12
+t: 0, project: 9
+t: 1, project: 17
+t: 2, project: 10
+t: 3, project: 9
+t: 4, project: 18
+t: 5, project: 2
+t: 6, project: 17
+t: 7, project: 29
+t: 8, project: 2
+t: 9, project: 1
+t: 10, project: 0
+t: 12, project: 0
+
+Resource_ID: 14, allocations: 11
+t: 0, project: 17
+t: 2, project: 9
+t: 3, project: 22
+t: 4, project: 24
+t: 6, project: 1
+t: 7, project: 17
+t: 8, project: 8
+t: 9, project: 8
+t: 10, project: 8
+t: 11, project: 15
+t: 12, project: 29
+

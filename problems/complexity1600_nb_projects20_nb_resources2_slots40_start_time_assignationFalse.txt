@@ -1,0 +1,30 @@
+days=5
+slots_per_day=8
+nb_resources=2
+nb_projects=20
+
+RESOURCES
+id=0
+id=1
+
+PROJECTS
+id=0, requested_slots=5, non_start_before=0, non_end_after=40, assigned_resources=[1]
+id=1, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[1]
+id=2, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[0]
+id=3, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[0, 1]
+id=4, requested_slots=2, non_start_before=0, non_end_after=40, assigned_resources=[0]
+id=5, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[1]
+id=6, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[0, 1]
+id=7, requested_slots=3, non_start_before=0, non_end_after=40, assigned_resources=[0, 1]
+id=8, requested_slots=3, non_start_before=0, non_end_after=40, assigned_resources=[1]
+id=9, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[0, 1]
+id=10, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[0, 1]
+id=11, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[1]
+id=12, requested_slots=3, non_start_before=0, non_end_after=40, assigned_resources=[0, 1]
+id=13, requested_slots=3, non_start_before=0, non_end_after=40, assigned_resources=[1]
+id=14, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[0]
+id=15, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[0]
+id=16, requested_slots=3, non_start_before=0, non_end_after=40, assigned_resources=[0]
+id=17, requested_slots=5, non_start_before=0, non_end_after=40, assigned_resources=[0, 1]
+id=18, requested_slots=2, non_start_before=0, non_end_after=40, assigned_resources=[0]
+id=19, requested_slots=1, non_start_before=0, non_end_after=40, assigned_resources=[0]

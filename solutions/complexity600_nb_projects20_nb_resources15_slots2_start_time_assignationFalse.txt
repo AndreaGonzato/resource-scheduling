@@ -1,0 +1,107 @@
+Optimal solution found
+Number of solutions found: 1
+Objective value: 1.0
+Solver runtime: 0.007965 seconds
+
+PROJECT SCHEDULE, nb_projects: 20
+Project_ID: 0, resources_used: 1, requested_slots: 1
+Resource: 13, working: [0]
+
+Project_ID: 1, resources_used: 1, requested_slots: 1
+Resource: 4, working: [0]
+
+Project_ID: 2, resources_used: 1, requested_slots: 1
+Resource: 14, working: [0]
+
+Project_ID: 3, resources_used: 1, requested_slots: 1
+Resource: 10, working: [0]
+
+Project_ID: 4, resources_used: 1, requested_slots: 1
+Resource: 7, working: [0]
+
+Project_ID: 5, resources_used: 1, requested_slots: 1
+Resource: 6, working: [0]
+
+Project_ID: 6, resources_used: 1, requested_slots: 1
+Resource: 0, working: [0]
+
+Project_ID: 7, resources_used: 0, requested_slots: 1
+
+Project_ID: 8, resources_used: 1, requested_slots: 1
+Resource: 1, working: [0]
+
+Project_ID: 9, resources_used: 1, requested_slots: 1
+Resource: 9, working: [0]
+
+Project_ID: 10, resources_used: 1, requested_slots: 1
+Resource: 2, working: [0]
+
+Project_ID: 11, resources_used: 1, requested_slots: 1
+Resource: 8, working: [0]
+
+Project_ID: 12, resources_used: 1, requested_slots: 1
+Resource: 11, working: [0]
+
+Project_ID: 13, resources_used: 1, requested_slots: 1
+Resource: 12, working: [0]
+
+Project_ID: 14, resources_used: 1, requested_slots: 1
+Resource: 3, working: [0]
+
+Project_ID: 15, resources_used: 0, requested_slots: 1
+
+Project_ID: 16, resources_used: 0, requested_slots: 1
+
+Project_ID: 17, resources_used: 1, requested_slots: 1
+Resource: 5, working: [0]
+
+Project_ID: 18, resources_used: 0, requested_slots: 1
+
+Project_ID: 19, resources_used: 0, requested_slots: 1
+
+RESOURCE ALLOCATION, nb_resources: 15
+Resource_ID: 0, allocations: 1
+t: 0, project: 6
+
+Resource_ID: 1, allocations: 1
+t: 0, project: 8
+
+Resource_ID: 2, allocations: 1
+t: 0, project: 10
+
+Resource_ID: 3, allocations: 1
+t: 0, project: 14
+
+Resource_ID: 4, allocations: 1
+t: 0, project: 1
+
+Resource_ID: 5, allocations: 1
+t: 0, project: 17
+
+Resource_ID: 6, allocations: 1
+t: 0, project: 5
+
+Resource_ID: 7, allocations: 1
+t: 0, project: 4
+
+Resource_ID: 8, allocations: 1
+t: 0, project: 11
+
+Resource_ID: 9, allocations: 1
+t: 0, project: 9
+
+Resource_ID: 10, allocations: 1
+t: 0, project: 3
+
+Resource_ID: 11, allocations: 1
+t: 0, project: 12
+
+Resource_ID: 12, allocations: 1
+t: 0, project: 13
+
+Resource_ID: 13, allocations: 1
+t: 0, project: 0
+
+Resource_ID: 14, allocations: 1
+t: 0, project: 2
+

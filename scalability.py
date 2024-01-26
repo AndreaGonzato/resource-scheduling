@@ -48,4 +48,32 @@ for i in range(len(file_list)):
         else:
             raise ValueError(f"no found runtime time for file: {file_list[i]}")
 
+# compute the average
+data = {}
 print(complexity_time_data)
+for k, times_list in complexity_time_data.items():
+    average = sum(times_list) / len(times_list)
+    data[k] = average
+
+print(data)
+
+import matplotlib.pyplot as plt
+
+# Keys and values
+keys = data.keys()
+values = data.values()
+
+# Create a line plot
+plt.plot(keys, values, marker='o', linestyle='none')  # 'o' adds markers to each point
+
+# Adding labels (optional)
+plt.xlabel('Complexity')
+plt.ylabel('Time')
+
+filename = 'img/scalability.png'
+
+# Save the plot to the file
+plt.savefig(filename)
+
+# Show plot
+plt.show()

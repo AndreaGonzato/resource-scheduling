@@ -1,0 +1,99 @@
+Optimal solution found
+Number of solutions found: 2
+Objective value: 14.0
+Solver runtime: 0.051478 seconds
+
+PROJECT SCHEDULE, nb_projects: 20
+Project_ID: 0, resources_used: 1, requested_slots: 4
+Resource: 1, working: [11, 12, 13]
+
+Project_ID: 1, resources_used: 1, requested_slots: 1
+Resource: 1, working: [2]
+
+Project_ID: 2, resources_used: 1, requested_slots: 1
+Resource: 0, working: [7]
+
+Project_ID: 3, resources_used: 1, requested_slots: 1
+Resource: 1, working: [7]
+
+Project_ID: 4, resources_used: 1, requested_slots: 1
+Resource: 0, working: [2]
+
+Project_ID: 5, resources_used: 1, requested_slots: 1
+Resource: 1, working: [3]
+
+Project_ID: 6, resources_used: 1, requested_slots: 1
+Resource: 0, working: [4]
+
+Project_ID: 7, resources_used: 1, requested_slots: 1
+Resource: 1, working: [5]
+
+Project_ID: 8, resources_used: 1, requested_slots: 1
+Resource: 1, working: [1]
+
+Project_ID: 9, resources_used: 1, requested_slots: 1
+Resource: 0, working: [5]
+
+Project_ID: 10, resources_used: 1, requested_slots: 1
+Resource: 1, working: [0]
+
+Project_ID: 11, resources_used: 1, requested_slots: 1
+Resource: 1, working: [4]
+
+Project_ID: 12, resources_used: 1, requested_slots: 2
+Resource: 0, working: [13]
+
+Project_ID: 13, resources_used: 1, requested_slots: 2
+Resource: 1, working: [8, 9]
+
+Project_ID: 14, resources_used: 1, requested_slots: 1
+Resource: 0, working: [1]
+
+Project_ID: 15, resources_used: 1, requested_slots: 1
+Resource: 0, working: [3]
+
+Project_ID: 16, resources_used: 1, requested_slots: 2
+Resource: 0, working: [8, 9]
+
+Project_ID: 17, resources_used: 2, requested_slots: 4
+Resource: 0, working: [10, 11, 12]
+Resource: 1, working: [10]
+
+Project_ID: 18, resources_used: 1, requested_slots: 1
+Resource: 0, working: [0]
+
+Project_ID: 19, resources_used: 1, requested_slots: 1
+Resource: 0, working: [6]
+
+RESOURCE ALLOCATION, nb_resources: 2
+Resource_ID: 0, allocations: 14
+t: 0, project: 18
+t: 1, project: 14
+t: 2, project: 4
+t: 3, project: 15
+t: 4, project: 6
+t: 5, project: 9
+t: 6, project: 19
+t: 7, project: 2
+t: 8, project: 16
+t: 9, project: 16
+t: 10, project: 17
+t: 11, project: 17
+t: 12, project: 17
+t: 13, project: 12
+
+Resource_ID: 1, allocations: 13
+t: 0, project: 10
+t: 1, project: 8
+t: 2, project: 1
+t: 3, project: 5
+t: 4, project: 11
+t: 5, project: 7
+t: 7, project: 3
+t: 8, project: 13
+t: 9, project: 13
+t: 10, project: 17
+t: 11, project: 0
+t: 12, project: 0
+t: 13, project: 0
+
